@@ -9,7 +9,7 @@ import "./styles/IdentityCard.css";
 const IdentityCard = () => {
   return (
     <div className="identity-card">
-      <img className="profile-pic" src={profilePicture} alt="Srijan Nayak"/>
+      <img className="profile-pic" src={profilePicture} alt="Srijan Nayak" />
       <span className="name">Srijan Nayak</span>
       <section className="course-details">
         <span className="student-year">2nd year B. Tech</span>
@@ -18,15 +18,15 @@ const IdentityCard = () => {
       <section className="social-links">
         <div className="social-link">
           <a href="https://www.linkedin.com/in/srijannayak">
-             linkedin.com/in/srijannayak
+            linkedin.com/in/srijannayak
           </a>
-          <img src={linkedinIcon} alt="LinkedIn"/>
+          <img src={linkedinIcon} alt="LinkedIn" />
         </div>
         <div className="social-link">
           <a href="https://www.github.com/srijan-nayak">
             github.com/srijan-nayak
           </a>
-          <img src={githubIcon} alt="LinkedIn"/>
+          <img src={githubIcon} alt="LinkedIn" />
         </div>
       </section>
     </div>

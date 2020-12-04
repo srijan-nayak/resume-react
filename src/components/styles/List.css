@@ -1,0 +1,18 @@
+.list h3 {
+  font-size: 3.6rem;
+  font-weight: 700;
+  font-variant: small-caps;
+  margin-bottom: 1.8rem;
+}
+
+.list ul {
+  list-style: none;
+}
+
+.list ul li {
+  margin-bottom: 0.8rem;
+}
+
+.list ul li::before {
+  content: "- ";
+}

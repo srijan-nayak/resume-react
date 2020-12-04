@@ -1,0 +1,38 @@
+.content-section {
+  margin: 0 auto;
+  width: 80%;
+}
+
+.section-heading {
+  color: #67C0C4;
+  font-size: 5.6rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  margin-bottom: 2.8rem;
+  margin-top: 6.4rem;
+}
+
+.skill-lists {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+.project-links {
+  display: flex;
+  flex-direction: column;
+}
+
+.project-links a {
+  color: #67C0C4;
+  padding-right: 2rem;
+  text-decoration: none;
+}
+
+.project-links a:hover {
+  text-decoration: underline;
+}
+
+.project-listing {
+  margin-bottom: 1rem;
+}

@@ -1,5 +1,5 @@
 .app {
-  height: 100vh;
+  min-height: 100vh;
   background-color: #373F51;
   display: grid;
   grid-template-columns: min-content 1fr;
