@@ -1,9 +1,12 @@
 import React from "react";
+import IdentityCard from "./components/IdentityCard";
+
+import "./App.css";
 
 const App = () => {
   return (
-    <div>
-      <h1>Resume</h1>
+    <div className="app">
+      <IdentityCard />
     </div>
   );
 };
